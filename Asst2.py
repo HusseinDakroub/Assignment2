@@ -5,7 +5,7 @@ import streamlit as st
 import plotly.graph_objects as go
 
 
-url = "https://raw.githubusercontent.com/HusseinDakroub/Asst2_MSBA325/main/global_pop.csv"
+url = "https://raw.githubusercontent.com/HusseinDakroub/Assignment2/main/global_pop.csv"
 df= pd.read_csv(url)
 
 st.title("Global Population")
